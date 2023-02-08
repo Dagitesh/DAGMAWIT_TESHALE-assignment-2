@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       body: ListView(children: [
         Text(
-          "Perfect Flowers for your ",
+          "  Perfect Flowers for your ",
           style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
         ),
         Container(
@@ -116,15 +116,11 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
           actions: <Widget>[
             IconButton(
-              icon: const Icon(Icons.search),
-              onPressed: () {},
-            ),
-            IconButton(
               icon: const Icon(Icons.menu),
               onPressed: () {},
             )
           ],
-          backgroundColor: Color.fromARGB(9, 255, 255, 255)),
+          backgroundColor: Color.fromARGB(213, 255, 255, 255)),
     );
   }
 }
