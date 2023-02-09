@@ -1,5 +1,5 @@
 # floralapp
-
+#design a mobile arrangment app that show preivew floral arrengment for a trendy florist.
 A new Flutter project.
 
 ## Getting Started
